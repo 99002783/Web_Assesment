@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-color: cornsilk;
+             text-align:center;
+        }
+    </style>
+    <script>
+
+ function ShowDetails()
+{
+    let name=document.getElementById("userName").value;
+    let date=document.getElementById("date").value;
+    let gender=document.getElementById("gender").value
+    let text = `<h1> Name: ${name}</h1><p>DOB:${date}</p> <p> gender:${gender}</p>`;
+    document.getElementById("printText").innerHTML = text;
+
+}
+    </script>
+</head>
+<body>
+    <form>
+    <h1>Web Forms</h1>
+<p> Enter name:<input type="text" id="userName"></p>   
+<p>Enter Date of Birth:<input type="date" id="date"></p>
+<p>
+    Select the state:
+    <select id="option">
+        <option >---Choose One---</option>
+        <option value="0" >AP</option>
+        <option value="1" >Telangana</option>
+        <option value="2" >Kerala</option>
+        <option value="3" >karnataka</option>
+    </select>
+</p>
+<p>
+    Select Gender:
+    <input type="radio" id="gender" name="gender1">Male
+    <input type="radio" id="gender" name="gender1">Female
+</p>
+<p><button type="button" onclick="ShowDetails()">submit</button>
+</form>
+
+<div id="printText"></div>
+
+
+</div>
+
+</body>
+</html>

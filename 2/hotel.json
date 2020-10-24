@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Pallavi",
+        "city": "Mysore",
+        "type": "Veg",
+        "cuisine": ["Indian", "Italian"]
+    },
+    {
+        "name": "Surabhi Comforts",
+        "city": "Mysore",
+        "type": "Veg",
+        "cuisine": ["Indian"]
+    },
+    {
+        "name": "New",
+        "city": "Banglore",
+        "type": "Non-Veg",
+        "cuisine": ["Indian", "Chinese", "Arabian"]
+    },
+    {
+        "name": "Paradise",
+        "city": "Hyderabad",
+        "type": "Non-Veg",
+        "cuisine": ["Italian", "Chinese"]
+    },
+    {
+        "name": "Maddy's",
+        "city": "Chennai",
+        "type": "Non-Veg",
+        "cuisine": ["Arabian", "Chinese"]
+    },
+    {
+        "name": "Saubhagya",
+        "city": "Chennai",
+        "type": "Veg",
+        "cuisine": ["Indian"]
+    }
+]
+
